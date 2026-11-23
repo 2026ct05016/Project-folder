@@ -1,0 +1,43 @@
+# =========================================================================
+# ML ASSIGNMENT 2: CLINICAL HEART DISEASE CLASSIFICATION PROJECT
+# REQUIREMENTS SPECIFICATION & DEPLOYMENT MANIFEST
+# =========================================================================
+# Target Python Version: Python >= 3.10
+# Platform Compatibility: Windows, macOS, Linux, Google Colab
+# Date Created: February 2025
+# =========================================================================
+
+# -------------------------------------------------------------------------
+# 1. CORE DATA WRANGLING & NUMERICAL COMPUTATION
+# -------------------------------------------------------------------------
+# numpy: Used for continuous arrays, metric matrix math, and NaN array mapping.
+numpy==2.4.6
+
+# pandas: Drives structured Clinical DataFrame storage, group medians, and dummies.
+pandas==2.2.3
+
+# -------------------------------------------------------------------------
+# 2. MACHINE LEARNING & EVALUATION MATHEMATICS
+# -------------------------------------------------------------------------
+# scikit-learn: Powers preprocessing (StandardScaler), train_test_split,
+# and models: Logistic Regression, Decision Trees, KNN, GaussianNB, and Random Forest.
+# Also calculates evaluation metrics: AUC, Accuracy, Recall, Precision, F1, and MCC.
+scikit-learn==1.6.1
+
+# -------------------------------------------------------------------------
+# 3. STATISTICAL GRAPHICS & PLOTTING
+# -------------------------------------------------------------------------
+# matplotlib: Establishes base plotting structures and figure layouts.
+matplotlib==3.10.0
+
+# seaborn: Generates clean, publication-ready multi-model accuracy comparison graphs.
+seaborn==0.13.2
+
+# -------------------------------------------------------------------------
+# 4. REMOTE DATA EXTRACTION & UTILITIES
+# -------------------------------------------------------------------------
+# requests: Facilitates connection to Google Sheets to download clinical tables.
+requests>=2.31.0
+
+# openpyxl: Engine for parsing Excel/sheet format matrices.
+openpyxl>=3.1.2
